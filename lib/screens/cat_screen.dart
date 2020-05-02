@@ -9,7 +9,9 @@ class CatScreen extends StatelessWidget {
         title: Text('Cat Screen'),
       ),
       body: Container(
-        child: Text('Cat Screen'),
+        child: Center(
+          child: Text('Nothing to see here'),
+        ),
       ),
     );
   }
